@@ -6,14 +6,14 @@ git_dir=~/Desktop/git-flow-tutorial/
 
 cd $desc
 git clone https://github.com/MyznEiji/git-flow-tutorial.git
-# cd $git_dir
-# git checkout -b $1
-# touch $2.txt
-# echo fetch_test > $2.txt
-# git add .
-# git commit -m fetch_test
-# git push origin $1
-# open https://github.com/MyznEiji/git-flow-tutorial
+cd $git_dir
+git checkout -b $1
+touch $2.txt
+echo fetch_test > $2.txt
+git add .
+git commit -m fetch_test
+git push origin $1
+open https://github.com/MyznEiji/git-flow-tutorial
 
 echo " remove directory [Enter] "
 read
