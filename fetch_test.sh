@@ -18,5 +18,5 @@ git clone https://github.com/MyznEiji/git-flow-tutorial.git
 echo " remove directory [Enter] "
 read
 
-# rm -rf $git_dir
-# rm -f fetch_test.sh
+rm -rf $git_dir
+rm -f fetch_test.sh
