@@ -3,7 +3,7 @@
 
 desc=~/Desktop
 git_dir=~/Desktop/git-flow-tutorial/
-pwd_dir=pwd
+current_dir=$(cd $(dirname $0) && pwd)
 
 cd $desc
 git clone https://github.com/MyznEiji/git-flow-tutorial.git
@@ -20,4 +20,4 @@ echo " remove directory [Enter] "
 read
 
 rm -rf $git_dir
-rm -f $pwd_dir/fetch_test.sh
+rm -f $current_dir/fetch_test.sh
